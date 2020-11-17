@@ -1,0 +1,77 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+/*I need a way to allow the player to interact with certain objects (IE a ball, or a toy) 
+and then drop, throw or sling it around. A 2D target joint is perfect for this purpose
+it just requires a little bit of scripting to get it to function in the desired way
+when the player clicks on the object. We'll just drop this on any object we want to 
+interact with this way and make sure it has a rigid body 2D and a target joint 2D.
+If we want something to be harder to lift/Have a sense of weight behind it we can 
+manipulate the weight/drag/gravity factor in the inspection window in Unity. At some 
+point I plan for there to be an excalibur like object you have to work to break free
+and we'll achieve that effect in that way.*/
+
+public class Kinetics:MonoBehavior{
+
+  //First create a public 2D target joint. You could call it anything but targetJoint is good enough
+  public TargetJoint2D targetJoint;
+
+  /*The awake function is what will happen whenever this thing is initialized for the first time.
+  For the most part that will be when the scene loads for the first time but it doesn't have to
+  be.*/
+  void Awake()
+  {
+      //On awake we need our the game object's target joint 2D to be asigned to our variable so we can use it
+      targetJoint = this.gameObject.GetComponent<TargetJoint2D> ();
+      //We then want to set the target to the object's position
+      targetJoint.target = gameObject.transform.position;
+  }
+
+  //Now we need a function for what happens when you click on the object.
+  void OnMouseDown()
+  {
+      //We don't want to actually enable the joint until the object is clicked on. So, now that a mouse button down is detected, enable it
+      targetJoint.enabled = true;
+    
+  }
+
+  //This function will determine what happens when we drag the mouse. We want to be able to click and drag it around
+  void OnMouseDrag()
+  {
+      //Only do this if it has actually been clicked on/IE enabled
+      if (targetJoint.enabled = true)
+      {
+          //We want to create a vector 2 set to the position of our mouse cursor
+          Vector2 cursorPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+          //Then we want to make the target joint's target that cursor position. IE make it stick to where you drag the mouse
+          targetJoint.target = cursorPosition;
+      }
+    
+  }
+
+  //Finally, when you realease the mouse button we want to disable the joint, IE make it drop. Or get thrown, depending on how the player is doing it.
+  void OnMouseUp()
+  {
+      //Literally all we have to do to get the desired effect is disable the joint.
+      targetJoint.enabled = false;
+   
+  }
+
+  //The following functions are just for Unity
+
+  //Initialization
+  void Start()
+  {
+
+
+  }
+
+  //We want to update every frame/Check if this is going on every frame
+  void Update()
+  {
+
+  }
+
+
+}
