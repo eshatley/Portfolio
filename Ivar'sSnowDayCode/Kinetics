@@ -40,7 +40,7 @@ public class Kinetics:MonoBehaviour{
   void OnMouseDrag()
   {
       //Only do this if it has actually been clicked on/IE enabled
-      if (targetJoint.enabled = true)
+      if (targetJoint.enabled == true)
       {
           //We want to create a vector 2 set to the position of our mouse cursor
           Vector2 cursorPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition);
