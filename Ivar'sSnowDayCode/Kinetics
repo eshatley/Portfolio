@@ -12,7 +12,7 @@ manipulate the weight/drag/gravity factor in the inspection window in Unity. At 
 point I plan for there to be an excalibur like object you have to work to break free
 and we'll achieve that effect in that way.*/
 
-public class Kinetics:MonoBehavior{
+public class Kinetics:MonoBehaviour{
 
   //First create a public 2D target joint. You could call it anything but targetJoint is good enough
   public TargetJoint2D targetJoint;
