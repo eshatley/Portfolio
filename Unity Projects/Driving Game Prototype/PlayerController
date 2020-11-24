@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Playercontroller : MonoBehaviour
+{
+    //Called before the first frame update
+    void Start()
+    {
+    
+    }
+    
+    //Called once per frame
+    void Update()
+    {
+      /*So far all this script will do is make an object, in this case the player vehicle, move 
+      forward at a constant speed. I assume later on we'll add in the ability to steer to the left 
+      and right to avoid the obstacles. I will update this code as I progress through the course.*/
+      
+      //Move vehicle forward along z axis at a constant speed
+      transform.Translate(Vector3.forward * Time.deltaTime * 20);
+    }
+    
+    
+}
