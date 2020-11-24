@@ -1,48 +1,63 @@
 This repository was created to contain and diplay my personal coding portfolio.
 
-I am an aspiring Technical Artist. I love all kinds of games but paticularly action RPG's (Diablo 3!!!) and games with interesting visual styles 
-(Night in the Woods, Limbo, to name a few.). I want to help tell impactful, relatable human stories through the medium of video games. Video games
-helped me survive some of the toughest times in my own life and I want to be a part of giving that to others. The first game I ever played was
-Donkey Kong Country 64 with my older brother. He died when I was only 10 and I used games as a way to cope and try to stay connected to him. Later
-in highschool when I was the kid with no friends and a broken home, games like Mass Effect gave me refuge and hope. They gave me the chance to see 
+I am an aspiring Technical Artist. I love all kinds of games but paticularly action RPG's (Diablo 3!!!) 
+and games with interesting visual styles (Night in the Woods, Limbo, to name a few.). I want to help 
+tell impactful, relatable human stories through the medium of video games. Video games helped me survive 
+some of the toughest times in my own life and I want to be a part of giving that to others. The first 
+game I ever played wasDonkey Kong Country 64 with my older brother. He died when I was only 10 and I used 
+games as a way to cope and try to stay connected to him. Later in highschool when I was the kid with no 
+friends and a broken home, games like Mass Effect gave me refuge and hope. They gave me the chance to see 
 myself as someone worth while, the hero of my own story, and characters that I could relate to.
 
-I've taken some programing classes with Midwestern University(C++) but for the most part I am self taught. I started learning Python in the early 
-2000s because I wanted to be able to script for MUDs(Multi User Dungeons. The epitome of nerdom.) and later it became useful for my military training
-as we spent a lot of time networking with Linux Redhat. Ubuntu is still my operating system of choice for everything except gaming. I used Mimo to 
-learn the basics of Java Script, HTML and as an entry point/refresher for various other languages. I plan on building my own website to host both
-my art and my code at some point in the not too distant future. 
+I've taken some programing classes with Midwestern University(C++) but for the most part I am self taught. 
+I started learning Python in the early 2000s because I wanted to be able to script for MUDs(Multi User 
+Dungeons. The epitome of nerdom.) and later it became useful for my military training as we spent a lot 
+of time networking with Linux Redhat. Ubuntu is still my operating system of choice for everything except 
+gaming. I used Mimo to learn the basics of Java Script, HTML and as an entry point/refresher for various 
+other languages. I plan on building my own website to host both my art and my code at some point in the not 
+too distant future. 
 
-I've made various personal projects in Unity, all though none of them are complete games as of yet. I made a demo level of a 2D adventure game where 
-the player character is a man with telekinetic powers in a world where super heros are hated. I created a script that would allow the player to click
-various objects in the game world and throw them around with realistic gravity and weight. The idea was to use this ability to solve various puzzles 
-while progressing through the story. I also created several different art assets for it, including backgrounds and props and NPC characters for
-several different locations. I created multiple 2D animations for it in photoshop that I implemented in Unity, including movement animations for the 
-player character. It is essentially a playable demo, although it was stored on a computer that is no longer functional. I backed them up to another 
-drive and hope to be able to make it playable again soon, although I'm currently stalled by Unity not likeing the copied files.
+I've made various personal projects in Unity, all though none of them are complete games as of yet. I made 
+a demo level of a 2D adventure game where the player character is a man with telekinetic powers in a world 
+where super heros are hated. I created a script that would allow the player to click various objects in the 
+game world and throw them around with realistic gravity and weight. The idea was to use this ability to 
+solve various puzzles while progressing through the story. I also created several different art assets for it, 
+including backgrounds and props and NPC characters for several different locations. I created multiple 2D 
+animations for it in photoshop that I implemented in Unity, including movement animations for the 
+player character. It is essentially a playable demo, although it was stored on a computer that is no 
+longer functional. I backed them up to another drive and hope to be able to make it playable again soon, 
+although I'm currently stalled by Unity not likeing the copied files.
 
-My younger brother aspired to make games for a while and I created all the art and animations for that as well, although he did the coding. It was never
-completed but you can find videos on the Facebook page he made for it - https://www.facebook.com/thetrainhopper/
+My younger brother aspired to make games for a while and I created all the art and animations for that as well, 
+although he did the coding. It was never completed but you can find videos on the Facebook page he made for it - 
+https://www.facebook.com/thetrainhopper/
 
-My greatest claim to fame to date is the work I did for Grand State Awareness- a tabletop roll playing game being produced by Ghostly Gaming LLC. I
-created concept art for all their player character races as well as various art pieces for their player handbook, including the cover. I also worked
-on a weekly webcomic for their website for a time, doing everything from story boarding to the final production myself. It is currently on hiatus, I 
-belive their writer was dealing with some personal things, but you can find it on their website - https://ghostlygamingllc.com/gsa/
+My greatest claim to fame to date is the work I did for Grand State Awareness- a tabletop roll playing game 
+being produced by Ghostly Gaming LLC. I created concept art for all their player character races as well as 
+various art pieces for their player handbook, including the cover. I also worked on a weekly webcomic for 
+their website for a time, doing everything from story boarding to the final production myself. 
+It is currently on hiatus, I believe their writer was dealing with some personal things, but you can find 
+it on their website - https://ghostlygamingllc.com/gsa/
 I believe it's really going to be something special when they're done with it.
 
-I was recently told by a very amazing recruiter that my artistic ability and technical inclination would probably make me a great fit for being a
-technical artist. I did some research and it turns out she was at least right in the fact that it ticks all my skills and interests. I'm currently
-trying to learn everything I can so hopefully some day soon I can land a job with a company doing just that. 
+I was recently told by a very amazing recruiter that my artistic ability and technical inclination would probably
+make me a great fit for being a technical artist. I did some research and it turns out she was at least right in 
+the fact that it ticks all my skills and interests. I'm currently trying to learn everything I can so hopefully 
+some day soon I can land a job with a company doing just that. 
 
 11/17/2020 UPDATE
-I decided to seperate my various projects and code samples into different directories, to make things look neater and also easy to find. I started working on a game
-project I'm tentatively calling Ivar's Snow Day and decided to start a directory to show off various scripts I'm makeing for it in Unity using C#. Mostly I want a short,
-simple project that can show off everything I can do in Unity as well as my 2D art skills. I do, however, also want it to be fun experience. I envision a whimsical sort
-of 2D adventure game where you play a child home for a snow day and through him make normal every day objects seem fantastical. You play Ivar, and his father has created
-a snow day game for him to play. You'll have to over come various challenges, aquire the right gear and prepare for the ultimate snow ball show down. When it's complete 
-I'll put it up on itch.io and hopefully get some good feedback. I'm also kind of hoping that if enough people like it I can generate enough hype to get my passion project, 
-The Train Hopper, going again. It's also a point and click adventure game and I was originally working on it with my brother. he eventually decided he didn't like the idea
-as well as he thought he did and abandoned it, but I still think it has a lot of promise. We had a playable prototype but it needs HELP. He gave me the ok to continue it on
-my own but I know it needs a lot of time and funding to really be good. I'm dreaming wildly that maybe when people see what I can do it'll happen. 
+I decided to seperate my various projects and code samples into different directories, to make things look 
+neater and also easy to find. I started working on a game project I'm tentatively calling Ivar's Snow Day and 
+decided to start a directory to show off various scripts I'm makeing for it in Unity using C#. Mostly I want a short,
+simple project that can show off everything I can do in Unity as well as my 2D art skills. I do, however, also want 
+it to be fun experience. I envision a whimsical sort of 2D adventure game where you play a child home for a snow day 
+and through him make normal every day objects seem fantastical. You play Ivar, and his father has created a snow day 
+game for him to play. You'll have to over come various challenges, aquire the right gear and prepare for the ultimate 
+snow ball show down. When it's complete  I'll put it up on itch.io and hopefully get some good feedback. I'm also 
+kind of hoping that if enough people like it I can generate enough hype to get my passion project, The Train Hopper, 
+going again. It's also a point and click adventure game and I was originally working on it with my brother. he eventually 
+decided he didn't like the idea as well as he thought he did and abandoned it, but I still think it has a lot of promise. 
+We had a playable prototype but it needs HELP. He gave me the ok to continue it on my own but I know it needs a lot of 
+time and funding to really be good. I'm dreaming wildly that maybe when people see what I can do it'll happen. 
 
 Maybe some day soon I can quit my day job and work on video games full time. Here's hoping.
