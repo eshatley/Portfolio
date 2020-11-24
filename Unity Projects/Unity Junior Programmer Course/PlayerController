@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     
     }
     
+    //Variable for the speed of the vehicle
+    public float carSpeed = 20;
     //Called once per frame
     void Update()
     {
@@ -18,7 +20,7 @@ public class PlayerController : MonoBehaviour
       and right to avoid the obstacles. I will update this code as I progress through the course.*/
       
       //Move vehicle forward along z axis at a constant speed
-      transform.Translate(Vector3.forward * Time.deltaTime * 20);
+      transform.Translate(Vector3.forward * Time.deltaTime * carSpeed);
     }
     
     
