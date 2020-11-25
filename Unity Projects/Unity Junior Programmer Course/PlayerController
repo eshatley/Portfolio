@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     
     //Variable for the speed of the vehicle
     private float carSpeed = 20;
-    //Varbiable that's going to let us turn the vehicle side to side
+    //Varbiable for speed at which vehicle or object will rotate
     private float turnSpeed = 40;
     //Variable to let the user take control of horizontal movement
     private float horizontalInput;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
      
-      //Enable user input
+      //Enable user input, specifically arrow keys
       horizontalInput = Input.GetAxis("Horizontal");
       forwardInput = Input.GetAxis("Vertical");
       
