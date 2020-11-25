@@ -1,5 +1,5 @@
 /*This code will enable a player to control a vehicle, or any object really, provided all you 
-you want it to do is drvie forward/backward and rotate side to side, using the arrow keys. */
+want it to do is drvie forward/backward and rotate side to side, using the arrow keys. */
 
 using System.Collections;
 using System.Collections.Generic;
