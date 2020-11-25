@@ -11,12 +11,13 @@ public class PlayerController : MonoBehaviour
     }
     
     //Variable for the speed of the vehicle
-    public float carSpeed = 20;
+    private float carSpeed = 20;
     //Varbiable that's going to let us turn the vehicle side to side
-    public float turnSpeed;
-    public float horizontalInput;
+    private float turnSpeed = 40;
+    //Variable to let the user take control of horizontal movement
+    private float horizontalInput;
     //Variable that is going to let the user take control of forward movement
-    public float forwardInput;
+    private float forwardInput;
     
     //Called once per frame
     void Update()
@@ -26,10 +27,10 @@ public class PlayerController : MonoBehaviour
       horizontalInput = Input.GetAxis("Horizontal");
       forwardInput = Input.GetAxis("Vertical");
       
-      //Move vehicle forward along z axis at a constant speed
+      //Move vehicle forward based on forwardInput
       transform.Translate(Vector3.forward * Time.deltaTime * carSpeed * forwardInput);
-      //This will be updated at a later date to allow rotation rather than sliding.
-      transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);
+      //Rotate the vehicle based on horizontalInput
+      transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
     }
     
     
