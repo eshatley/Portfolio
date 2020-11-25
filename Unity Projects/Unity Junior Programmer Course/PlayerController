@@ -12,15 +12,24 @@ public class PlayerController : MonoBehaviour
     
     //Variable for the speed of the vehicle
     public float carSpeed = 20;
+    //Varbiable that's going to let us turn the vehicle side to side
+    public float turnSpeed;
+    public float horizontalInput;
+    //Variable that is going to let the user take control of forward movement
+    public float forwardInput;
+    
     //Called once per frame
     void Update()
     {
-      /*So far all this script will do is make an object, in this case the player vehicle, move 
-      forward at a constant speed. I assume later on we'll add in the ability to steer to the left 
-      and right to avoid the obstacles. I will update this code as I progress through the course.*/
+     
+      //Enable user input
+      horizontalInput = Input.GetAxis("Horizontal");
+      forwardInput = Input.GetAxis("Vertical");
       
       //Move vehicle forward along z axis at a constant speed
-      transform.Translate(Vector3.forward * Time.deltaTime * carSpeed);
+      transform.Translate(Vector3.forward * Time.deltaTime * carSpeed * forwardInput);
+      //This will be updated at a later date to allow rotation rather than sliding.
+      transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);
     }
     
     
